@@ -1,0 +1,16 @@
+.navbar{
+    display: flex;
+    
+    justify-content: space-between;
+    padding: 15px 60px;
+    box-shadow: 0 1px 3px -2px #003;
+    margin-bottom: 1px;
+    background: linear-gradient(to right, #ffffff, green);
+}
+.nav-logo{
+    width: 100px;
+}
+
+.nav-profile{
+    width: 75px;
+}
