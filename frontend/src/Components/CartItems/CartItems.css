@@ -1,0 +1,72 @@
+.cartitems{
+    
+    background:linear-gradient(to top, #ffffff, green) ;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.cartitems hr{
+    height: 3px;
+    background: black;
+    border: 0;
+}
+.cartitem-format-main{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 75px;
+    padding: 20px 0px;
+    color:#000000;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.cartitem-format{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.carticon-product-icon{
+    height: 62px;
+}
+
+.cartitems-quantity{
+    width: 50px;
+    height: 40px;
+    border: 2px solid rgb(253, 253, 253);
+    background: white;
+    font-weight: 600;
+}
+.cartitems-quantity-icon{
+    width: 30px;
+    height: 20px;
+    border: 2px solid rgb(153, 147, 147);
+    background: rgb(153, 147, 147);
+    cursor: pointer;
+}
+.cartitem-down{
+    display: flex;
+    margin: 100px 0px;
+}
+.cartitems-total{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+    gap: 40px;
+}
+.cartitem-total-item{
+     display: flex;
+     justify-content: space-between;
+     padding: 15px 0px;
+}
+.cartitems-total button{
+    width: 262px;
+    height: 58px;
+    outline: none;
+    border: none;
+    background: red;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}

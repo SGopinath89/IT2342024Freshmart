@@ -1,0 +1,77 @@
+.hero{
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(to top, #ffffff, green);
+}
+.hero_category{
+    display: flex;
+    align-items: center; 
+}
+.hero_slide h1{
+    display: flex;
+    color: red;
+    
+    justify-content: center;
+    
+    
+}
+.category_vegitables{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 100px;
+    align-items: center;
+    
+}
+.category_vegitables h3{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.category_Fruites{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 325px;
+    justify-content:center;
+    align-items: center;
+    
+}
+.category_Fruites h3{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.category_Meats{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 500px;
+    justify-content:right;
+    align-items: center;
+    
+}
+.category_Meats h3{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.hero_category hr{
+    border:  none;
+    width: 50%;
+    height: 3px;
+    border-radius: 10px;
+    background: red;
+}
+.hero_category{
+    display: flex;
+    align-items: center;
+    
+    
+    color: blue;
+    font-size: 20px;
+    font-weight: 500;
+}

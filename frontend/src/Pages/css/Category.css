@@ -1,0 +1,14 @@
+.shop-category{
+   
+    
+    background: linear-gradient(to top, #ffffff, green);
+}
+.shop-product{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 10px;
+    position: relative;
+    left: 125px;
+    right:100px;
+}
